@@ -1,0 +1,50 @@
+@import "./sass/typography";
+@import "./sass/colors";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $gray1;
+    color: $white;
+    padding: 0 20px;
+}
+
+.border{
+    border: 1px solid red;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 100%;
+    max-width: 1260px;
+
+    margin: 0 auto;
+
+    border: 1px solid red;
+}
+
+.button{
+    display: inline-block;
+    padding: 22px 48px;
+    color: $white;
+    border-radius: 6px;
+}
+
+.primary{
+    background: $purple-toBottom-gradient;
+    color: $gray9;
+}
+
+.secondary{
+    background: $gray4;
+    color: $gray8;
+}

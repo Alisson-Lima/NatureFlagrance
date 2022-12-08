@@ -1,0 +1,61 @@
+// Branding colors
+
+$purple: #6312CA;
+
+//  Variations
+
+$purple-dark1: #5A0DBD;
+$purple-dark2: #5007AD;
+$purple-light1: #7221D9;
+$purple-light2: #7F2EE6;
+
+// Gray scale
+
+$gray1: #040108;
+$gray2: #0D0C0F;
+$gray3: #16151A;
+$gray4: #242329;
+$gray5: #45454A;
+$gray6: #66676B;
+$gray7: #88898C;
+$gray8: #AAACAD;
+$gray9: #CCCDCE;
+$gray10: #E3E2E6;
+$white: #EEEBF2;
+
+// Complement colors
+
+$yellow-color: #E0AC24;
+$red-color: #F93E3E;
+$green-color: #49CB1C;
+
+// Gradients
+
+$purple-toBottom-gradient: linear-gradient(to bottom, $purple 0%, $purple-dark2 100%);;
+$purple-toTop-gradient: linear-gradient(to top, $purple 0%, $purple-dark2 100%);;
+$purple-toLeft-gradient: linear-gradient(to left, $purple 0%, $purple-dark2 100%);;
+$purple-toRight-gradient: linear-gradient(to right, $purple 0%, $purple-dark2 100%);;
+
+$purple-toBottom-gradient2: linear-gradient(to bottom, $purple 0%, rgba(99, 18, 202, 0));;
+$purple-toTop-gradient2: linear-gradient(to top, $purple 0%, rgba(99, 18, 202, 0));;
+$purple-toLeft-gradient2: linear-gradient(to left, $purple 0%, rgba(99, 18, 202, 0));;
+$purple-toRight-gradient2: linear-gradient(to right, $purple 0%, rgba(99, 18, 202, 0));;
+
+// Class
+
+.purple{
+    color: $purple;
+}
+.purple-bg{
+    background: $purple;
+}
+
+.yellow{
+    color: $yellow-color;
+}
+.red{
+    color: $red-color;
+}
+.green{
+    color: $green-color;
+}

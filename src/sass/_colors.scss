@@ -41,6 +41,10 @@ $purple-toTop-gradient2: linear-gradient(to top, $purple 0%, rgba(99, 18, 202, 0
 $purple-toLeft-gradient2: linear-gradient(to left, $purple 0%, rgba(99, 18, 202, 0));;
 $purple-toRight-gradient2: linear-gradient(to right, $purple 0%, rgba(99, 18, 202, 0));;
 
+// Box shadow
+
+$branding-shadow: 0 10px 32px #4f07ad54;
+
 // Class
 
 .purple{

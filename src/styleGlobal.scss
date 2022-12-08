@@ -10,7 +10,6 @@
 body{
     background-color: $gray1;
     color: $white;
-    padding: 0 20px;
 }
 
 .border{
@@ -22,29 +21,108 @@ body{
     justify-content: center;
     align-items: center;
 }
+.hover2{
+    filter: brightness(0.9);
+    transition: .4s;
+}
 
 .container{
     width: 100%;
     max-width: 1260px;
-
+    padding: 0 15px;
     margin: 0 auto;
-
-    border: 1px solid red;
+    // border: 1px solid red;
 }
 
 .button{
     display: inline-block;
-    padding: 22px 48px;
+    padding: 16px 48px;
     color: $white;
     border-radius: 6px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .primary{
     background: $purple-toBottom-gradient;
     color: $gray9;
+    transition: .4s;
+    &:hover{
+        filter: brightness(1.2);
+        box-shadow: $branding-shadow;
+    }
 }
 
 .secondary{
     background: $gray4;
     color: $gray8;
+    transition: .4s;
+    &:hover{
+        filter: brightness(0.8);
+    }
+    
+}
+
+.back{
+    background-image: url(../assets/imgs/back1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    min-height: 800px;
+}
+
+.Header{
+    margin-bottom: 64px;
+    .premium{
+        background: $yellow-color;
+        color: $gray4;
+        text-align: center;
+        margin-bottom: 32px;
+        p{
+            font-size: 14px;
+            letter-spacing: .3rem;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+    }
+    .container{
+        justify-content: space-between;
+        ul li{
+            list-style: none;
+            margin-right: 40px;
+
+            a{
+                font-size: 14px;
+                color: $gray7;
+                text-transform: uppercase;
+                transition: .4s;
+                &:hover{
+                    filter: brightness(1.3);
+                }
+            }
+        }
+        .button{
+            margin-left: 40px;
+        }
+    }
+}
+
+.text-content{
+    max-width: 888px;
+    margin: 0 auto;
+    p{
+        max-width: 828px;
+        margin: 48px auto 56px;
+        color: $gray7;
+    }
+    .button{
+        margin-right: 16px;
+        // &:nth-child(1){
+        // }
+        &:last-child{
+            margin-left: 16px;
+        }
+    }
 }

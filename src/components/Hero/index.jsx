@@ -7,10 +7,8 @@ export default function Hero(){
     function showModal(){
         if(modalClass == "modal-video-disable"){
             setModalClass("modal-video-active")
-            console.log(modalClass)
         }else{
             setModalClass("modal-video-disable")
-            console.log(modalClass)
         }
     }
 
@@ -22,7 +20,7 @@ export default function Hero(){
                 <div className="text-content center">
                     <h1>Lorem ipsum dolor sit amet, consectetur adipiscing.</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fringilla velit ut tellus faucibus, vitae molestie ligula porta. Morbi imperdiet nunc ullamcorper lectus cursus.</p>
-                    <ButtonLink content="Buy now" name="button primary" />
+                    <ButtonLink content="Buy now" name="button primary" arrow={true}/>
                     <ButtonLink content="See more" name="button secondary" />
                 </div>
                 <div className="mockup-video" onClick={showModal}>

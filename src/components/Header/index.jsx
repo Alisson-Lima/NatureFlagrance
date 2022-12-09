@@ -1,5 +1,6 @@
 import ButtonLink from "../ButtonLink"
 export default function Header(){
+
     return(
         <header className="Header">
             <div className="premium"><p>Premium product</p></div>
@@ -13,7 +14,7 @@ export default function Header(){
                     </svg>
                 </a>
                 <div className="menu flex">
-                    <ul className="flex">
+                    <ul className="flex no-mobile">
                         <li><a href="#">
                             Home
                             <svg className="arrow-bottom" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">

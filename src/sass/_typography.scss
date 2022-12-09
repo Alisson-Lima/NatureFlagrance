@@ -43,3 +43,27 @@ a{
 .center{
     text-align: center;
 }
+
+// MediaQuery
+
+@media screen and (max-width: 550px){
+
+    h1{
+        font-size: 48px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    h3{
+        font-size: 24px;
+    }
+    h4{
+        font-size: 18px;
+    }
+    h5{
+        font-size: 16px;
+    }
+    p, a{
+        font-size: 16px;
+    } 
+}

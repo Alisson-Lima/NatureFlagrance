@@ -48,6 +48,26 @@ a {
   text-align: center;
 }
 
+@media screen and (max-width: 550px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  h5 {
+    font-size: 16px;
+  }
+  p, a {
+    font-size: 16px;
+  }
+}
 .purple {
   color: #6312CA;
 }
@@ -121,6 +141,7 @@ html {
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 600;
+  max-width: 250px;
 }
 
 .primary {
@@ -331,4 +352,22 @@ html {
 .modal-video-disable {
   opacity: 0;
   pointer-events: none;
+}
+
+@media screen and (max-width: 732px) {
+  .no-mobile {
+    display: none;
+  }
+  .text-content .button {
+    margin: 0 auto;
+    display: block;
+  }
+  .text-content .button:last-child {
+    margin: 16px auto;
+  }
+}
+@media screen and (min-width: 732px) {
+  .no-mobile {
+    display: flex;
+  }
 }

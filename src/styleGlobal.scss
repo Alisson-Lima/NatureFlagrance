@@ -227,12 +227,12 @@ html{
     }
 
     .video{
+        position: relative;
         width: 100%;
         max-width: 1200px;
         height: 600px;
         background: $gray4;
         border-radius: 6px;
-
         header {
             padding: 16px;
             border-bottom: 2px solid $gray5;
@@ -263,6 +263,10 @@ html{
                     background: $green-color;
                 }
             }
+        }
+        .video-gif{
+            width: 100%;
+            height: calc(100% - 72px);
         }
     }
 }

@@ -39,6 +39,9 @@ export default function Hero(){
                             <div className="circle"></div>
                             <div className="circle"></div>
                         </header>
+                        <div className="video-gif flex">
+                            <img src="./assets/imgs/natureVideo.gif" alt="Video Gif"/>
+                        </div>
                     </div>
                 </div>
             </div>

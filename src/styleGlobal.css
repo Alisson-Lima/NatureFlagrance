@@ -280,6 +280,7 @@ html {
   margin: 8px 0 24px;
 }
 .modal-video .video {
+  position: relative;
   width: 100%;
   max-width: 1200px;
   height: 600px;
@@ -316,6 +317,10 @@ html {
 }
 .modal-video .video header .circle:last-child {
   background: #49CB1C;
+}
+.modal-video .video .video-gif {
+  width: 100%;
+  height: calc(100% - 72px);
 }
 
 .modal-video-active {

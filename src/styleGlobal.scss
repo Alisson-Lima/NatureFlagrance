@@ -343,6 +343,52 @@ html{
     }
 }
 
+.Footer{
+    background: $gray1;
+    min-height: 200px;
+    p{
+        font-size: 18px;
+        color: $gray6;
+    }
+    h4{
+        font-size: 28px;
+    }
+    .container{
+        padding: 16px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        div, a{
+            max-width: 430px;
+            text-align: right;
+            h4{
+                margin-bottom: 8px;
+            }
+            
+            &:first-child{
+                display: flex;
+                h4{
+                    margin-bottom: 0;
+                }
+                .logo-content{
+                    margin-left: 28px;
+                    text-align: left;
+                }
+
+                .logo{
+                    background: $gray2;
+                    width: 72px;
+                    height: 72px;
+                    border-radius: 100%;
+                    transition: .4s;
+                    &:hover{
+                        filter: brightness(1.2);
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 732px) {
     .no-mobile{
         display: none;
@@ -353,7 +399,7 @@ html{
             &:last-child{
                 margin: 16px auto;
             }
-        }
+    }
 
     .points .cards-points-container .cards-points{
         
@@ -364,6 +410,16 @@ html{
                 margin-left: 0;
             }
         
+    }
+
+    .Footer .container{
+        justify-content: center;
+        a:first-child{
+            margin-bottom: 32px;
+        }
+        .obs-part{
+            text-align: center;
+        }
     }
 
     }

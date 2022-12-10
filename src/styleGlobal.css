@@ -50,6 +50,8 @@ h3 {
 
 h4 {
   font-size: 24px;
+  font-family: "Montserrat";
+  font-weight: 600;
 }
 
 h5 {
@@ -440,6 +442,50 @@ html {
   margin-top: 24px;
 }
 
+.Footer {
+  background: #040108;
+  min-height: 200px;
+}
+.Footer p {
+  font-size: 18px;
+  color: #66676B;
+}
+.Footer h4 {
+  font-size: 28px;
+}
+.Footer .container {
+  padding: 16px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.Footer .container div, .Footer .container a {
+  max-width: 430px;
+  text-align: right;
+}
+.Footer .container div h4, .Footer .container a h4 {
+  margin-bottom: 8px;
+}
+.Footer .container div:first-child, .Footer .container a:first-child {
+  display: flex;
+}
+.Footer .container div:first-child h4, .Footer .container a:first-child h4 {
+  margin-bottom: 0;
+}
+.Footer .container div:first-child .logo-content, .Footer .container a:first-child .logo-content {
+  margin-left: 28px;
+  text-align: left;
+}
+.Footer .container div:first-child .logo, .Footer .container a:first-child .logo {
+  background: #0D0C0F;
+  width: 72px;
+  height: 72px;
+  border-radius: 100%;
+  transition: 0.4s;
+}
+.Footer .container div:first-child .logo:hover, .Footer .container a:first-child .logo:hover {
+  filter: brightness(1.2);
+}
+
 @media screen and (max-width: 732px) {
   .no-mobile {
     display: none;
@@ -456,6 +502,15 @@ html {
   }
   .points .cards-points-container .cards-points:last-child {
     margin-left: 0;
+  }
+  .Footer .container {
+    justify-content: center;
+  }
+  .Footer .container a:first-child {
+    margin-bottom: 32px;
+  }
+  .Footer .container .obs-part {
+    text-align: center;
   }
 }
 @media screen and (min-width: 732px) {

@@ -71,6 +71,7 @@ a {
 
 .center {
   text-align: center;
+  margin: 0 auto;
 }
 
 .number {
@@ -442,6 +443,43 @@ html {
   margin-top: 24px;
 }
 
+#About {
+  margin: 200px auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#About .about-img-company {
+  width: 500px;
+  margin: 40px auto;
+}
+#About .about-img-company img {
+  width: 100%;
+  max-width: 460px;
+  box-shadow: -40px -40px 0 #45454A;
+  border-radius: 6px;
+}
+#About .about-text-content {
+  width: 650px;
+  text-align: left;
+}
+#About .about-text-content h2 {
+  margin-bottom: 24px;
+}
+#About .about-text-content p {
+  margin-top: 24px;
+}
+#About .about-text-content .about-social-icons {
+  justify-content: space-between;
+  max-width: 184px;
+}
+#About .about-text-content .about-social-icons .social {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin-top: 48px;
+  background: linear-gradient(to bottom, #6312CA 0%, #5007AD 100%);
+}
+
 .Footer {
   background: #040108;
   min-height: 200px;
@@ -506,11 +544,18 @@ html {
   .Footer .container {
     justify-content: center;
   }
-  .Footer .container a:first-child {
+  .Footer .container .logo-part {
     margin-bottom: 32px;
   }
   .Footer .container .obs-part {
     text-align: center;
+  }
+  #About .about-img-company {
+    order: 2;
+    margin-top: 40px;
+  }
+  #About .about-img-company img {
+    box-shadow: none;
   }
 }
 @media screen and (min-width: 732px) {

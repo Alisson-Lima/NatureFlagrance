@@ -1,9 +1,11 @@
+import imgSrc from "../../../assets/imgs/about.jpg"
+
 export default function About(){
     return (
         <>
             <div className="container flex" id="About">
                 <div className="about-img-company center">
-                    <img src="./assets/imgs/about-img.jpg" alt="Company image"  />
+                    <img src={imgSrc} alt="Company image"  />
                 </div>
                 <div className="about-text-content center">
                     <h2>Lorem ipsum dolor sit amet</h2>

@@ -343,6 +343,47 @@ html{
     }
 }
 
+#Modules{
+    margin-top: 200px;
+    .modules-container{
+        flex-wrap: wrap;
+        gap: 16px;
+        justify-content: flex-start;
+        margin-top: 100px;
+        .module{
+            text-align: left;
+            max-width: 395px;
+            position: relative;
+            margin-bottom: 72px;
+    
+            h5, h4, p{
+                margin-left: 36px;
+            }
+    
+            h5{
+                margin-top: 32px;
+            }
+            
+            h4{
+                margin: 12px 36px 16px;
+            }
+            p{
+                font-size: 16px;
+                margin-bottom: 32px;
+            }
+    
+            &:before{
+                content: "";
+                display: block;
+                position: absolute;
+                width: 12px;
+                height: 110%;
+                background: $purple-toBottom-gradient2;
+            }
+        }
+    }
+}
+
 #About{
     margin: 200px auto;
     justify-content: space-between;

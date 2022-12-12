@@ -56,6 +56,10 @@ h4 {
 
 h5 {
   font-size: 16px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  color: #88898C;
+  text-transform: uppercase;
 }
 
 p, a {
@@ -441,6 +445,43 @@ html {
 }
 .points .button {
   margin-top: 24px;
+}
+
+#Modules {
+  margin-top: 200px;
+}
+#Modules .modules-container {
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: flex-start;
+  margin-top: 100px;
+}
+#Modules .modules-container .module {
+  text-align: left;
+  max-width: 395px;
+  position: relative;
+  margin-bottom: 72px;
+}
+#Modules .modules-container .module h5, #Modules .modules-container .module h4, #Modules .modules-container .module p {
+  margin-left: 36px;
+}
+#Modules .modules-container .module h5 {
+  margin-top: 32px;
+}
+#Modules .modules-container .module h4 {
+  margin: 12px 36px 16px;
+}
+#Modules .modules-container .module p {
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+#Modules .modules-container .module:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 12px;
+  height: 110%;
+  background: linear-gradient(to bottom, #6312CA 0%, rgba(99, 18, 202, 0));
 }
 
 #About {

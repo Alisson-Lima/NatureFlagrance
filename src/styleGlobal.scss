@@ -553,6 +553,15 @@ html{
         }
     }
 
+    #Comments .bg-effect-testimonials .testimonials-container{
+        display: block;
+        grid-template-areas: none;
+
+        .testimonial{
+            margin-bottom: 32px;
+        }
+    }
+
     #About{
         .about-img-company{
             order: 2;

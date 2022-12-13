@@ -637,6 +637,13 @@ html {
   .Footer .container .obs-part {
     text-align: center;
   }
+  #Comments .bg-effect-testimonials .testimonials-container {
+    display: block;
+    grid-template-areas: none;
+  }
+  #Comments .bg-effect-testimonials .testimonials-container .testimonial {
+    margin-bottom: 32px;
+  }
   #About .about-img-company {
     order: 2;
     margin-top: 40px;

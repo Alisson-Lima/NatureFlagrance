@@ -21,7 +21,7 @@ export default function Hero(){
                     <h1>Lorem ipsum dolor sit amet, consectetur adipiscing.</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fringilla velit ut tellus faucibus, vitae molestie ligula porta. Morbi imperdiet nunc ullamcorper lectus cursus.</p>
                     <ButtonLink content="Buy now" name="button primary" arrow={true}/>
-                    <ButtonLink content="See more" name="button secondary" />
+                    <ButtonLink content="See more" name="button secondary" link="#Modules"/>
                 </div>
                 <div className="mockup-video" onClick={showModal}>
                     <div className="actions flex">

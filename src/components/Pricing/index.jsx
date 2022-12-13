@@ -42,7 +42,7 @@ export default function Pricing(){
                         <li className="flex"><div className="icon-list"></div> lorem ipsum dolor sit amet</li>
                         <li className="flex"><div className="icon-list"></div> lorem ipsum dolor sit amet</li>
                     </ul>
-                    <ButtonLink name="button primary" content="Buy now" link="#" />
+                    <ButtonLink name="button primary" content="Buy now" />
                     <p className="small">Compra segura</p>
                 </div>
             </div>

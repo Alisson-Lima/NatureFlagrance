@@ -76,7 +76,6 @@
         }
     ],
     "Product": {
-        "price": "X.XXX",
-        "parcel": "12x de X.XXX"
+        "price": 1200
     }
 }

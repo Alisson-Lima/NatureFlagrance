@@ -16,7 +16,7 @@ export default function Hero(){
         <>
         <div className="back">
             <Header/>
-            <div className="container">
+            <div className="container" id="Hero">
                 <div className="text-content center">
                     <h1>Lorem ipsum dolor sit amet, consectetur adipiscing.</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fringilla velit ut tellus faucibus, vitae molestie ligula porta. Morbi imperdiet nunc ullamcorper lectus cursus.</p>

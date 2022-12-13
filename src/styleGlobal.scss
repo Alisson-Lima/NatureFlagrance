@@ -422,6 +422,58 @@ html{
     }
 }
 
+#Comments{
+    .bg-effect-testimonials{
+        position: relative;
+
+        .logo-bg-testimonials{
+            align-self: center;
+            position: absolute;
+            width: 320px;
+            height: 320px;
+            background: $gray4;
+            border-radius: 100%;
+        }
+        .testimonials-container{
+            display: grid;
+            gap: 16px;
+            margin-top: 72px;
+            grid-template-areas:
+            "a a a b b"
+            "a a a b b"
+            "c c d d d"
+            "c c d d d"
+            ;
+            .testi-1{
+                grid-area: a;
+            }
+            .testi-2{
+                grid-area: b;
+            }
+            .testi-3{
+                grid-area: c;
+            }
+            .testi-4{
+                grid-area: d;
+            }
+            .testimonial{
+                display: block;
+                padding: 56px 32px;
+                text-align: left;
+                background: $glassmorfism-transparent;
+                backdrop-filter: blur(20px);
+                border-radius: 6px;
+                border: 2px solid $gray9;
+                p{
+                    font-size: 18px;
+                }
+                h4{
+                    margin-bottom: 28px;
+                }
+            }
+        }
+    }
+}
 .Footer{
     background: $gray1;
     min-height: 200px;

@@ -521,6 +521,52 @@ html {
   background: linear-gradient(to bottom, #6312CA 0%, #5007AD 100%);
 }
 
+#Comments .bg-effect-testimonials {
+  position: relative;
+}
+#Comments .bg-effect-testimonials .logo-bg-testimonials {
+  align-self: center;
+  position: absolute;
+  width: 320px;
+  height: 320px;
+  background: #242329;
+  border-radius: 100%;
+}
+#Comments .bg-effect-testimonials .testimonials-container {
+  display: grid;
+  gap: 16px;
+  margin-top: 72px;
+  grid-template-areas: "a a a b b" "a a a b b" "c c d d d" "c c d d d";
+}
+#Comments .bg-effect-testimonials .testimonials-container .testi-1 {
+  grid-area: a;
+}
+#Comments .bg-effect-testimonials .testimonials-container .testi-2 {
+  grid-area: b;
+}
+#Comments .bg-effect-testimonials .testimonials-container .testi-3 {
+  grid-area: c;
+}
+#Comments .bg-effect-testimonials .testimonials-container .testi-4 {
+  grid-area: d;
+}
+#Comments .bg-effect-testimonials .testimonials-container .testimonial {
+  display: block;
+  padding: 56px 32px;
+  text-align: left;
+  background: rgba(238, 235, 242, 0.5);
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  border-radius: 6px;
+  border: 2px solid #CCCDCE;
+}
+#Comments .bg-effect-testimonials .testimonials-container .testimonial p {
+  font-size: 18px;
+}
+#Comments .bg-effect-testimonials .testimonials-container .testimonial h4 {
+  margin-bottom: 28px;
+}
+
 .Footer {
   background: #040108;
   min-height: 200px;

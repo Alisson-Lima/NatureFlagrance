@@ -17,9 +17,9 @@ function App() {
         <CurseModules />
         <About />
         <Comments/>
-        {/* <Pricing /> */}
+        <Pricing />
       </main>
-      <FAQ />
+      {/* <FAQ /> */}
       <Footer />
     </>
   )

@@ -4,6 +4,9 @@ import Footer from "./components/Footer"
 import About from "./components/About"
 import CurseModules from "./components/CurseModules"
 import Comments from "./components/Comments"
+import Pricing from "./components/Pricing"
+import FAQ from "./components/FAQ"
+
 import "./styleGlobal.css"
 function App() {
   return (
@@ -14,7 +17,9 @@ function App() {
         <CurseModules />
         <About />
         <Comments/>
+        {/* <Pricing /> */}
       </main>
+      <FAQ />
       <Footer />
     </>
   )

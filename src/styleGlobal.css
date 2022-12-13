@@ -28,7 +28,7 @@
   src: url(../../assets/fonts/shandora-italic.ttf);
 }
 h1, h2, h3, h4, h5 {
-  font-family: shandora;
+  font-family: shandora, serif;
   line-height: 120%;
   font-weight: 100;
 }
@@ -149,6 +149,10 @@ body::-webkit-scrollbar-thumb {
 
 html {
   scroll-behavior: smooth;
+}
+
+img {
+  width: 100%;
 }
 
 .section {
@@ -565,6 +569,93 @@ html {
 }
 #Comments .bg-effect-testimonials .testimonials-container .testimonial h4 {
   margin-bottom: 28px;
+}
+
+#Pricing {
+  flex-direction: column;
+  margin-top: 200px;
+  position: relative;
+}
+#Pricing h2 {
+  margin-bottom: 100px;
+}
+#Pricing .pricing-bg {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  min-width: 800px;
+  max-width: 1100px;
+  margin-top: 150px;
+}
+#Pricing .pricing-container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #CCCDCE;
+  background: #EEEBF2;
+  border-radius: 6px;
+  box-shadow: 0 24px 40px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#Pricing .pricing-container::before {
+  content: "";
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 28px;
+  background: linear-gradient(to bottom, #6312CA 0%, #5007AD 100%);
+  top: 0;
+  left: 0;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+#Pricing .pricing-container .pricing-content {
+  padding: 32px;
+  color: #45454A;
+}
+#Pricing .pricing-container .pricing-content .logo-pricing {
+  width: 80px;
+  height: 80px;
+  background: #242329;
+  border-radius: 100%;
+  margin: 28px auto 40px;
+}
+#Pricing .pricing-container .pricing-content h1 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  margin-top: 24px;
+}
+#Pricing .pricing-container .pricing-content p {
+  font-size: 16px;
+}
+#Pricing .pricing-container .pricing-content hr {
+  margin: 32px 0;
+  border: 1px solid #CCCDCE;
+}
+#Pricing .pricing-container .pricing-content ul {
+  padding: 0;
+  list-style: none;
+  margin-bottom: 48px;
+}
+#Pricing .pricing-container .pricing-content ul li {
+  margin-bottom: 28px;
+  font-size: 20px;
+  font-family: "Montserrat";
+}
+#Pricing .pricing-container .pricing-content ul li .icon-list {
+  margin-right: 16px;
+  min-width: 16px;
+  min-height: 16px;
+  border-radius: 100%;
+  background: linear-gradient(to bottom, #6312CA 0%, #5007AD 100%);
+}
+#Pricing .pricing-container .pricing-content .button {
+  margin-bottom: 16px;
+}
+#Pricing .pricing-container .pricing-content .small {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #88898C;
 }
 
 .Footer {

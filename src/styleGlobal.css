@@ -645,6 +645,7 @@ img {
   margin-bottom: 28px;
   font-size: 20px;
   font-family: "Montserrat";
+  text-align: left;
 }
 #Pricing .pricing-container .pricing-content ul li .icon-list {
   margin-right: 16px;
@@ -660,6 +661,71 @@ img {
   font-size: 12px;
   text-transform: uppercase;
   color: #88898C;
+}
+
+#Faq {
+  background: url(../assets/imgs/back1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 700px;
+  padding: 72px 16px;
+}
+#Faq .container {
+  flex-direction: column;
+  text-align: center;
+}
+#Faq .container h2 {
+  max-width: 800px;
+  margin-bottom: 32px;
+  color: #E3E2E6;
+}
+#Faq .container p {
+  color: #88898C;
+}
+#Faq .container p.p-faq {
+  max-width: 600px;
+  margin-bottom: 72px;
+}
+#Faq .container .questions-container {
+  position: relative;
+  max-width: 828px;
+  text-align: left;
+  width: 100%;
+}
+#Faq .container .questions-container p {
+  font-size: 18px;
+}
+#Faq .container .questions-container .question-faq {
+  cursor: pointer;
+  display: block;
+  max-height: 300px;
+  width: 100%;
+  margin-bottom: 28px;
+}
+#Faq .container .questions-container .question-faq .ques {
+  pointer-events: none;
+  position: relative;
+  background: #242329;
+  padding: 32px;
+  justify-content: space-between;
+  border-radius: 6px;
+  z-index: 1;
+}
+#Faq .container .questions-container .question-faq .ques h4 {
+  font-size: 24px;
+  color: #88898C;
+}
+#Faq .container .questions-container .question-faq .res {
+  background: #16151A;
+  margin-top: -6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  transition: 0.4s;
+  overflow: hidden;
+}
+#Faq .container .questions-container .question-faq .res p {
+  padding: 32px;
 }
 
 .Footer {

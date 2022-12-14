@@ -19,7 +19,7 @@ function App() {
         <Comments/>
         <Pricing />
       </main>
-      {/* <FAQ /> */}
+      <FAQ />
       <Footer />
     </>
   )

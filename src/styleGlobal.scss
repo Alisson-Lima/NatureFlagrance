@@ -546,6 +546,7 @@ img{
                     margin-bottom: 28px;
                     font-size: 20px;
                     font-family: "Montserrat";
+                    text-align: left;
                     .icon-list{
                         margin-right: 16px;
                         min-width: 16px;
@@ -567,6 +568,74 @@ img{
 
         }
 
+    }
+}
+
+#Faq{
+    background: url(../assets/imgs/back1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // filter: saturate(0);
+    min-height: 700px;
+    padding: 72px 16px;
+    .container{
+        flex-direction: column;
+        text-align: center;
+        h2{
+            max-width: 800px;
+            margin-bottom: 32px;
+            color: $gray10;
+        }
+        p{
+            color: $gray7;
+        }
+        p.p-faq{
+            max-width: 600px;
+            margin-bottom: 72px;
+        }
+        .questions-container{
+            position: relative;
+            max-width: 828px;
+            text-align: left;
+            width: 100%;
+            p{
+                font-size: 18px;
+            }
+            .question-faq{
+                cursor: pointer;
+                display: block;
+                max-height: 300px;
+                width: 100%;
+                margin-bottom: 28px;
+                .ques{
+                    pointer-events: none;
+                    position: relative;
+                    background: $gray4;
+                    padding: 32px;
+                    justify-content: space-between;
+                    border-radius: 6px;
+                    z-index: 1;
+                    h4{
+                        font-size: 24px;
+                        color: $gray7;
+                    }
+                }
+                .res{
+                    background: $gray3;
+                    margin-top: -6px;
+                    border-bottom-left-radius: 6px;
+                    border-bottom-right-radius: 6px;
+                    transition: .4s;
+                    overflow: hidden;
+                    p{
+                        padding: 32px;
+                        // width: 100%;
+                    }
+                }
+            }
+
+        }
     }
 }
 

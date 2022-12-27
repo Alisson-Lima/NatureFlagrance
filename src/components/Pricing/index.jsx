@@ -1,18 +1,7 @@
 import ButtonLink from "../ButtonLink/"
-import { useState, useEffect } from "react"
 import pricingImage from "../../../assets/imgs/bg-pricing.jpg"
-import api from "../../services/api"
 export default function Pricing(){
 
-    const[productPrice, setProductPrice] = useState(0)
-    useEffect(()=>{
-        api.get("/Product")
-        .then((res)=>{
-            setProductPrice(res.data.price)
-        }).catch((e)=>{
-            console.log(e)
-        })
-    }, [])
     return (
         <div className="container flex" id="Pricing">
             <h2>Lorem ipsum dolor sit amet</h2>
@@ -34,8 +23,8 @@ export default function Pricing(){
                         </svg>
                     </div>
                     <h3>Lorem ipsum dolor sit amet</h3>
-                    <h1>R$:{productPrice.toLocaleString('pt-BR')}</h1>
-                    <p>ou em 12x de R$: {((productPrice / 12) * 1.1).toFixed(2).replace(".", ",")}</p>
+                    <h1>R$:1200</h1>
+                    <p>ou em 12x de R$: 100,00</p>
                     <hr />
                     <ul>
                         <li className="flex"><div className="icon-list"></div> lorem ipsum dolor sit amet</li>

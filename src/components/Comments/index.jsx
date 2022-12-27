@@ -1,17 +1,4 @@
-import Testimonial from "../Testimonials"
-import { useState, useEffect } from "react"
-import api from "../../services/api"
 export default function Comments(){
-
-    const [testimonial, setTestimonial] = useState([])
-    
-    useEffect(()=>{
-        api.get("/Testimonials")
-        .then((res)=>{
-            setTestimonial(res.data)
-        })
-    }, [])
-
 
     return(
         <>
@@ -31,17 +18,22 @@ export default function Comments(){
                         </svg>
                     </div>
                     <div className="testimonials-container">
-                        {
-                            testimonial.map(testi =>{
-                                return(
-                                    <Testimonial
-                                        testimonialId={testi.testimonialsId}
-                                        testimonialName={testi.testimonialsName}
-                                        testimonialText={testi.testimonialsText}
-                                    />
-                                )
-                            })
-                        }
+                        <div className="testimonial testi-1">
+                            <h4>Testimonials Name A</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel porttitor diam. Maecenas dapibus sem ac sollicitudin hendrerit. Phasellus eget sodales orci. Pellentesque sed tortor ut mi finibus porta ut ut dui. Duis porttitor aliquet justo, vitae tristique augue posuere non. Duis at velit pulvinar ultricies quam quis, mollis erat.</p>
+                        </div>
+                        <div className="testimonial testi-2">
+                            <h4>Testimonials Name B</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel porttitor diam. Maecenas dapibus sem ac sollicitudin hendrerit. Phasellus eget sodales orci. Pellentesque sed tortor ut mi finibus porta ut ut dui.</p>
+                        </div>
+                        <div className="testimonial testi-3">
+                            <h4>Testimonials Name C</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel porttitor diam. Maecenas dapibus sem ac sollicitudin hendrerit. Phasellus eget sodales orci. Pellentesque sed tortor ut mi finibus porta ut ut dui.</p>
+                        </div>
+                        <div className="testimonial testi-4">
+                            <h4>Testimonials Name D</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel porttitor diam. Maecenas dapibus sem ac sollicitudin hendrerit. Phasellus eget sodales orci. Pellentesque sed tortor ut mi finibus porta ut ut dui. Duis porttitor aliquet justo, vitae tristique augue posuere non. Duis at velit pulvinar ultricies quam quis, mollis erat.</p>
+                        </div>
                     </div>
                 </div>
             </div>

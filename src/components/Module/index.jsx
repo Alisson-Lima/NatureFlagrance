@@ -1,9 +1,9 @@
-export default function Module({moduleName, moduleTitle, moduleDescription, moduleKey}){
+export default function Module(){
     return(
-        <div className="module" key={`key-${moduleKey}`}>
-            <h5>{moduleName}</h5>
-            <h4>{moduleTitle}</h4>
-            <p>{moduleDescription}</p>
+        <div className="module">
+            <h5>lorem ipsum</h5>
+            <h4>Lorem ipsum dolor sit amet</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fringilla velit ut tellus faucibus, vitae molestie ligula porta. Morbi imperdiet.</p>
         </div>
     )
 }
